@@ -68,12 +68,12 @@ const App = () => {
     }
     return (
         <div align="center">
-            <h3>How to connect XDC Pay wallet (chrome extension) with  Web3Modal</h3>
+            <h2>Connect Warranty-Fi with <br></br>XDC Pay Wallet(Chrome Extension)</h2>
 
 
 
-            {!provider && <button type='button' onClick={onConnect}>Connect</button>}
-            {provider && <button type='button' onClick={sendXdc}>Send XDC</button>}
+            {!provider && <button type='button'  onClick={onConnect}>Connect</button>}
+            {provider && <button type='button' class="button1" onClick={sendXdc}>Send XDC</button>}
 
         </div>
     );
